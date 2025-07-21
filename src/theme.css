@@ -834,6 +834,19 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
   display: none;
 }
 
+.colorable_f1ceac.disconnect_f1ceac {
+    background-color: #101010 !important;
+}
+
+.colorable_f1ceac.disconnect_f1ceac, .colorable_f1ceac.disconnect_f1ceac .centerIcon_f1ceac {
+    color: #cacaca;
+}
+
+
+.streamPreview__2f4f7 {
+    background-color: #353535 !important;
+
+}
 
 
 /* Custom stuff */
@@ -865,3 +878,20 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
     display: none !important;
   }
 }
+
+
+
+/* call background color of people profiles in call */
+@property --call-gray-color-background-icons {
+  syntax: 'on | off';
+  inherits: false;
+  initial-value: off;
+}
+
+@container body style(--call-gray-color-background-icons: on) {
+  .background_fb62e2 {
+    background-color: #151515 !important;
+    border-radius: inherit;
+  }
+}
+
