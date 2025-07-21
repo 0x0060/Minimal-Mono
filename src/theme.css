@@ -832,3 +832,9 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
     background-color: #000 !important;
     background-image: none !important;
 }
+
+.autocompleteRow__13533:has(.icon_ca5f52[src="https://cdn.discordapp.com/avatars/1211781489931452447/2b5cd2dc89eb963155f55520a6fa0495.webp?size=32"]),
+.iconCard_cb32c7:has(.iconCard_cb32c7[src="https://cdn.discordapp.com/app-icons/1211781489931452447/8904fec86de9bb7a71b2ae1e71a1adbc.png?size=128"]),
+.container_cb32c7[aria-label^="Wordle"] {
+  display: none;
+}
