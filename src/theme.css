@@ -4,6 +4,8 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
 @import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
+
+
 body {
 
     /* sizes */
@@ -56,7 +58,8 @@ body {
 /* color options */
 :root {
 
-    
+    --control-background-primary-default: #151515;
+    --control-background-primary-hover: #252525;
     --\\--compact-title-bar: false;
     --\\--compact-input-box: true;
     --\\--compact-context-menu: false;
@@ -270,13 +273,6 @@ code {
 .DraftEditor-editorContainer {
   display: none !important;
 }
-
-
-
-.searchBar__97492 {
-  width: 80px !important;
-}
-
 
 
 .privateChannelsHeaderContainer__99e7c {
