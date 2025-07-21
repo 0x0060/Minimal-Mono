@@ -1,5 +1,3 @@
-/* t */
-
 @import url('https://abbie.github.io/discord-css/import.css');
 @import url(https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css);
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
@@ -446,4 +444,21 @@ align-content: center;
 
 .grid__623de {
   border: 1px solid #151515;
+}
+
+
+.originalLink_af017a {
+  border-radius: inherit;
+  border: 1px solid #151515;
+}
+
+
+.inner_c0bea0, .container__6f250, .grid__623de.hasThumbnail__623de  {
+  border: 1px solid #151515 !important;
+  border-radius: inherit !important;
+}
+
+
+.vc-shiki-root .vc-shiki-code {
+  background-color: #000 !important;
 }
