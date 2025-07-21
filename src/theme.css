@@ -849,6 +849,16 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 }
 
 
+
+@container root style(--colors: on) {
+    .visual-refresh {
+        .colorable_f1ceac.primaryDark_f1ceac, .reaction_f8896c {
+            background-color: #151515 !important;
+        }
+    }
+}
+
+
 /* Custom stuff */
 
 @property --show-chatbar-icons {
