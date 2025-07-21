@@ -1,6 +1,4 @@
 @import url('https://abbie.github.io/discord-css/import.css');
-
-
 @import url(https://davart154.github.io/Themes/Snippets/Simplified%20Panel%20Area/SimplifiedPanelArea.css);
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
@@ -407,45 +405,6 @@ align-content: center;
   }
 }
 
-
-:root {
-    --friend-row-amount: 4;
-}
-@media (width < 1300px) {
-    #app-mount {
-        --friend-row-amount: 3;
-    }
-}
-@media (width < 1100px) {
-    #app-mount {
-        --friend-row-amount: 2;
-    }
-}
-@media (width < 700px) {
-    #app-mount {
-        --friend-row-amount: 1;
-    }
-}
-
-.peopleList__5ec2f >div {
-display: flex;
-flex-wrap: wrap;
-margin: 0px 0px 0px 16px;
-.sectionTitle__5ec2f {
-    width: 100%;
-    >h2.title__1472a {
-margin-left: 0px;
-    }
-}
-.peopleListItem_cc6179 {
-    margin: 0px!important;
-    width: calc(100% / var(--friend-row-amount));
-    overflow: visible;
-}
-.infoSpacing_f4bc97 {
-    display: none;
-}
-}
 
 
 /* remove gradient glow in chat and user list */
