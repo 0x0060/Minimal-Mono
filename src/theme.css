@@ -7,7 +7,6 @@
 
 
 body {
-
     /* sizes */
     --gap: 12px; /* spacing between panels */
     --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
@@ -57,7 +56,6 @@ body {
 
 /* color options */
 :root {
-
     --control-background-primary-default: #151515;
     --control-background-primary-hover: #252525;
     --\\--compact-title-bar: false;
@@ -267,11 +265,6 @@ code {
 
 .tabBar_d1d9f3 {
   border-bottom: none;
-}
-
-
-.DraftEditor-editorContainer {
-  display: none !important;
 }
 
 
@@ -631,6 +624,8 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 }
 
 
+/* good */
+
 
 .tile_d6271c {
     width: 200px !important;
@@ -838,3 +833,21 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 .container_cb32c7[aria-label^="Wordle"] {
   display: none;
 }
+
+
+
+/* Custom stuff */
+
+@property --show-chatbar-icons {
+    syntax: 'off | on';
+    inherits: false;
+    initial-value: on;
+}
+
+
+@container body style(--show-chatbar-icons: off) {
+  .buttons__74017 {
+    display: none !important;
+  }
+}
+
