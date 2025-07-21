@@ -817,3 +817,18 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
 .childWrapperNoHoverBg__6e9f8, .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8, .wrapper__6e9f8:hover .childWrapper__6e9f8 {
     background-color: #121212 !important;
 }
+
+.lookFilled__201d5.colorPrimary__201d5 {
+    background-color: #101010 !important;
+    color: #cacaca !important;
+}
+
+.lookFilled__201d5.colorPrimary__201d5:hover {
+    background-color: #202020 !important;
+    color: #cacaca !important;
+}
+
+.postEnrollmentBackground__636a2 {
+    background-color: #000 !important;
+    background-image: none !important;
+}
