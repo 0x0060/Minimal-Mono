@@ -851,3 +851,17 @@ form>div.focusLock__49fc1>div.rootWithShadow__49fc1 {
   }
 }
 
+
+
+/* option to hide screenshare popout */
+@property --screenshare-pop-up-window {
+  syntax: 'on | off';
+  inherits: false;
+  initial-value: on;
+}
+
+@container body style(--screenshare-pop-up-window: off) {
+  .pictureInPictureWindow__6341f {
+    display: none !important;
+  }
+}
